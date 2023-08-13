@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i src/input.css -o style.css",
+    "minfiy": "npx tailwindcss -i src/input.css -o style.min.css --minify",
+    "watch": "npx tailwindcss -i src/input.css -o style.css --watch"
+  },
+  "dependencies": {
+    "remixicon": "^3.5.0"
+  }
+}
